@@ -1,0 +1,46 @@
+:root {
+    --main-font: rgb(20, 24, 19);
+    --sprout: rgb(34, 214, 34);
+    --page-bg: rgb(234, 236, 243);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--main-font);
+    background-color: var(--page-bg);
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+i {
+    color: var(--sprout);
+}
+
+main {
+    padding: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#contact-us {
+    width: 50rem;
+}
+
